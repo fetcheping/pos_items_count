@@ -36,7 +36,7 @@ odoo.define('pos_items_receipt.items_receipt', function(require) {
 				return;
 			}
 			var total_items    = order ? order.get_total_items() : 0;
-			this.el.querySelector('.item_count .val').textContent = total_items.toFixed(2);
+			this.el.querySelector('.item_count .val').textContent = total_items.toFixed(0);
 		},
 	});
 

@@ -6,7 +6,7 @@
 			<br />
 			<div>
 				Total Items:
-				<span t-esc="order.get_total_items()" class="pos-receipt-right-align"/>
+				<strong><span t-esc="order.get_total_items()" class="pos-receipt-right-align"/></strong>
 			</div>
 			<br/>
 		</t>

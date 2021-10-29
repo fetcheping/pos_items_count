@@ -21,4 +21,4 @@ msgstr ""
 #: code:addons/pos_items_receipt/static/src/xml/pos_items_receipt.xml:0
 #, python-format
 msgid "Total Items:"
-msgstr "Nbre articles"
+msgstr "Nbre articles:"
